@@ -1,0 +1,11 @@
+import { Module } from "@nestjs/common";
+import UploadsController from "./uploads.controller";
+
+@Module({
+    controllers: [UploadsController],
+    providers: [],
+    exports: [],
+    imports: []
+
+})
+export default class UploadsModule {}
